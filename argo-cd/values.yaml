@@ -8,3 +8,6 @@ argo-cd:
   server:
     extraArgs:
       - --insecure
+  controller:
+    name:  application-controller
+      replicas: 2
