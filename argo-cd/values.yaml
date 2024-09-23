@@ -8,3 +8,7 @@ argo-cd:
   server:
     extraArgs:
       - --insecure
+  global:
+    logging:
+      level: warn
+      
