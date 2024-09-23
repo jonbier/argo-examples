@@ -4,6 +4,8 @@ metadata:
   name: mywebapp
 spec:
   replicas: 1
+  selector:
+    app: test
   template:
     metadata:
       labels:
