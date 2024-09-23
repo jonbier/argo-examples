@@ -9,5 +9,5 @@ argo-cd:
     extraArgs:
       - --insecure
   controller:
-    name:  application-controller
+    name: application-controller
       replicas: 2
